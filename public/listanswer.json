@@ -1,12 +1,77 @@
-{
-        "answers":
+
         [{
-          "city": "Aaberg"
+          "country": "France"
         },{
-          "city": "Aalst"
+          "country": "Ukraine"
         },{
-          "city": "Aara"
+          "country": "Poland"
+        },{
+          "country": "Finland"
+        },{
+          "country": "Sweden"
+        },{
+          "country": "Belarus"
+        },{
+          "country": "Albania"
+        },{
+          "country": "Austria"
+        },{
+          "country": "Belgium"
+        },{
+          "country": "Denmark"
+        },{
+          "country": "Estonia"
+        },{
+          "country": "Germany"
+        },{
+          "country": "Greece"
+        },{
+          "country": "Hungary"
+        },{
+          "country": "Iceland"
+        },{
+          "country": "Ireland"
+        },{
+          "country": "Italy"
+        },{
+          "country": "Latvia"
+        },{
+          "country": "Liechtenstein"
+        },{
+          "country": "Lithuania"
+        },{
+          "country": "Luxembourg"
+        },{
+          "country": "Malta"
+        },{
+          "country": "Moldova"
+        },{
+          "country": "Monaco"
+        },{
+          "country": "Montenegro"
+        },{
+          "country": "Netherlands"
+        },{
+          "country": "Norway"
+        },{
+          "country": "Portugal"
+        },{
+          "country": "Romania"
+        },{
+          "country": "Russia"
+        },{
+          "country": "Serbia"
+        },{
+          "country": "Slovakia"
+        },{
+          "country": "Slovenia"
+        },{
+          "country": "Spain"
+        },{
+          "country": "Switzerland"
+        },{
+          "country": "Turkey"
+        },{
+          "country": "United Kingdom"
         }
     ]
-
-}

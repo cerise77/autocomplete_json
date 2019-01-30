@@ -10,18 +10,31 @@ body {
 
 
 
-.bloc{
+.container{
   margin: 40px 40px;
 
   /*display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3vw;*/
 }
-.bloc input{
-  margin-bottom: 20px;
-  width: 40%;
+.container input{
+  margin: 20px 0;
+  width: 50%;
 }
-
+.container-fluid{
+  font-size: 1.3em;
+  font-weight: 500;
+}
+/*.dropdown-menu > li > a{
+  display: block;
+  padding: 10px 0;
+  background: #fff;
+  color: #000;
+}
+.dropdown-menu > .active >a:hover{
+  background:gray;
+  color: #000;
+}*/
 /*.list ul{
   list-style: none;
 }

@@ -5,16 +5,26 @@ function firstController($scope, $http){
 
   $scope.load = function(){
 
-    $http({method: 'GET', url: 'list.json'}).
+    $http({method: 'GET', url: 'listanswer.json'}).
     //$http({method: 'GET', url: 'listanswer.json'}).
       then(function success(response) {
-        $scope.list=response.data.list;
+        $scope.states=response.data;
 
+        $scope.selected = undefined;
+
+        /*console.log($scope.states);*/
       });
  };
 
   $scope.load();
 
+
+  //$scope.selected = undefined;
+  //$scope.states = ['USA', 'Ukraine', 'France', 'German', 'Spain', 'Sweden', 'Suiss', 'Finland', 'Belarus', 'Georgia', 'Poland', 'Greece', 'Portugal'];
+
+//$scope.states.css("border-bottom", "solid 1px #000");
+
+//console.log($scope.states);
 
   /*$scope.list={
       answers:

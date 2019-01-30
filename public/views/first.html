@@ -8,28 +8,40 @@
 </head>
 <body ng-controller="firstController">
 
-  <div class="bloc">
-    <!--<div class="">
+  <!--<div class="bloc">
+    <div class="">
         <input class="input" placeholder="Enter text" ng-model="answers.city"/>
     </div>
 
-    <div answer-list="list" ng-bind="answers.city"></div>-->
-  <!--<div answer-list="list"></div>-->
+    <div answer-list="list" ng-bind="answers.city"></div>
+    <div answer-list="list"></div>
 
-  </div>
+</div>-->
 
-  <div class="bloc">
+  <!--<div class="bloc">
     <div class="">
         <input class="input" type="text" placeholder="Enter text" ng-model="answers.city"/>
     </div>
 
     <div class="list">
         <p ng-bind="answers.city"></p>
-        <!--<p ng-repeat="answer in list.answers | orderBy:sortparam">{{answer.city}}</p>-->
+        <p ng-repeat="answer in list.answers | orderBy:sortparam">{{answer.city}}</p>
 
     </div>
 
-  </div>
+  </div>-->
+
+
+  <div class="container">
+    <div class="row-fluid">
+        <form class="row-fluid">
+            <div class="container-fluid">
+                Country Name <input type="text" class="form-control" name="states" id="states" type="text" ng-model="selected" typeahead="state.country for state in states | filter:$viewValue">
+            </div>
+        </form>
+    </div>
+</div>
+
 
 </body>
 </html>
